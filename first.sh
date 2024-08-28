@@ -41,15 +41,20 @@ else
 echo "Hello"
 fi
 
-echo "Enter UNAME"
-read NAME
-echo "Yous Name : $NAME"
+#echo "Enter UNAME"
+#read NAME
+#echo "Yous Name : $NAME"
 
-echo "Enter PASSWORD"
-read -s PASSWD
-echo "Yous Name : $PASSWD"
+#echo "Enter PASSWORD"
+#read -s PASSWD
+#echo "Yous Name : $PASSWD"
 
 NUM=(1 2 3)
 echo "f: ${NUM[0]}"
 echo "s: ${NUM[1]}"
 echo "t: ${NUM[2]}"
+
+NUM1=9
+echo "print $NUM1"
+export NUM1
+./second.sh
