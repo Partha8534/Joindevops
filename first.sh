@@ -50,6 +50,6 @@ read -s PASSWD
 echo "Yous Name : $PASSWD"
 
 NUM=(1,2,3)
-echo "${NUM[0]}"
-echo "${NUM[1]}"
-echo "${NUM[2]}"
+echo "f: ${NUM[0]}"
+echo "s: ${NUM[1]}"
+echo "t: ${NUM[2]}"
