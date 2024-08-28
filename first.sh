@@ -10,6 +10,12 @@ PERSON2=loka
 echo "$PERSON2 :: Hi $PERSON1"
 echo "$PERSON1 :: Hello $PERSON2, How are you?"
 
+FRUITS=("banana","apple","jack")
+
+echo "printing first fruit: ${FRUITS[0]}"
+echo "printing second fruit: ${FRUITS[1]}"
+echo "printing third fruit: ${FRUITS[2]}"
+echo "printing  fruit: ${FRUITS[@]}"
 
 FRUITS=("APPLE" "KIWI" "ORANGE") #Array
 
