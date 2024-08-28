@@ -11,7 +11,7 @@ echo "$PERSON2 :: Hi $PERSON1"
 echo "$PERSON1 :: Hello $PERSON2, How are you?"
 
 
-RUITS=("APPLE" "KIWI" "ORANGE") #Array
+FRUITS=("APPLE" "KIWI" "ORANGE") #Array
 
 echo "First fruit is: ${FRUITS[0]}"
 echo "Second fruit is: ${FRUITS[1]}"
