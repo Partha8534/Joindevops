@@ -29,7 +29,7 @@ echo "all variable passed to the script : $@"
 echo "no.of argumants passed to the script : $#"
 echo "script Name : $0"
 echo "PID of current script : $$"
-echo "current working dir : $pwd"
+echo "current working dir : $PWD"
 echo "Home $HOME"
 sleep 100
 echo "last exec PID : $!"
