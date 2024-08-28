@@ -24,3 +24,12 @@ NUMBER2=$2
 SUM=$(($NUMBER1+$NUMBER2))
 
 echo "The sum of $NUMBER1 and $NUMBER2 is : $SUM"
+
+echo "all variable passed to the script : $@"
+echo "no.of argumants passed to the script : $#"
+echo "script Name : $0"
+echo "PID of current script : $$"
+echo "current working dir : $pwd"
+echo "Home $HOME"
+sleep 100
+echo "last exec PID : $!"
