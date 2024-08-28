@@ -44,3 +44,7 @@ fi
 echo "Enter UNAME"
 read NAME
 echo "Yous Name : $NAME"
+
+echo "Enter PASSWORD"
+read -s PASSWD
+echo "Yous Name : $PASSWD"
