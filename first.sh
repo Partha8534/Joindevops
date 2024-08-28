@@ -31,5 +31,5 @@ echo "script Name : $0"
 echo "PID of current script : $$"
 echo "current working dir : $PWD"
 echo "Home $HOME"
-sleep 100
+sleep 100 &
 echo "last exec PID : $!"
