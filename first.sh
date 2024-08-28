@@ -34,7 +34,7 @@ echo "Home $HOME"
 sleep 100 &
 echo "last exec PID : $!"
 
-if[$? -ne 0]
+if [$? -ne 0]
 then
 echo "Hi"
 
