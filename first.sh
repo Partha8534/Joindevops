@@ -19,7 +19,7 @@ echo "Third fruit is: ${FRUITS[2]}"
 echo "First fruit is: ${FRUITS[@]}"
 
 NUMBER1=$1
-NUMBER2=$2
+NUMBER2=$1
 
 SUM=$(($NUMBER1+$NUMBER2))
 
