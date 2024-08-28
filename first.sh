@@ -48,3 +48,8 @@ echo "Yous Name : $NAME"
 echo "Enter PASSWORD"
 read -s PASSWD
 echo "Yous Name : $PASSWD"
+
+NUM=(1,2,3)
+echo "${NUM[0]}"
+echo "${NUM[1]}"
+echo "${NUM[2]}"
