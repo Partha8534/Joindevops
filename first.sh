@@ -39,3 +39,4 @@ then
 echo "Hi"
 else
 echo "Hello"
+fi
