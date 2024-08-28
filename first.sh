@@ -49,7 +49,7 @@ echo "Enter PASSWORD"
 read -s PASSWD
 echo "Yous Name : $PASSWD"
 
-NUM=(1,2,3)
+NUM=(1 2 3)
 echo "f: ${NUM[0]}"
 echo "s: ${NUM[1]}"
 echo "t: ${NUM[2]}"
