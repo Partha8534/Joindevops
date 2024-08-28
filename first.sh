@@ -12,7 +12,7 @@ echo "$PERSON1 :: Hello $PERSON2, How are you?"
 
 FRUITS=("banana","apple","jack")
 
-echo "printing first fruit: $FRUITS[0]"
+echo "printing first fruit: ${FRUITS[0]}"
 echo "printing second fruit: ${FRUITS[1]}"
 echo "printing third fruit: ${FRUITS[2]}"
 echo "printing  fruit: ${FRUITS[@]}"
