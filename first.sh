@@ -40,3 +40,7 @@ echo "Hi"
 else
 echo "Hello"
 fi
+
+echo "Enter UNAME"
+read NAME
+echo "Yous Name : $NAME"
