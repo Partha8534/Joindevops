@@ -1,8 +1,8 @@
 #!/bin/bash
 
-UID = $(id -u)
+USERID=$(id -u)
 
-if [ $UID -ne 0 ]
+if [ $USERID -ne 0 ]
 then
 echo "Run script as Sudo User"
 else
