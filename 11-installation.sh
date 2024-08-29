@@ -7,3 +7,4 @@ then
 echo "Run script as Sudo User"
 else
 echo "Run script Success"
+fi
