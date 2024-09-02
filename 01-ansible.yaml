@@ -1,6 +1,5 @@
--name: pign the server
-hosts: Web
-tasks: 
-   -name: pign the server
-    msg: Print Hi
-
+- name: ping the server
+  hosts: web #which hosts your ansible wants to connect
+  tasks: #list of tasks/modules/collections
+  - name: ping the server
+    ansible.builtin.ping:
