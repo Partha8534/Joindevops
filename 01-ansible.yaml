@@ -1,6 +1,6 @@
 -name: pign the server
 hosts: Web
- -tasks: 
-   name: pign the server
-   ping:
+tasks: 
+   -name: pign the server
+    ping:
 
