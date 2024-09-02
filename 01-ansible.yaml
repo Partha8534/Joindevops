@@ -2,5 +2,5 @@
 hosts: Web
 tasks: 
    -name: pign the server
-    ping:
+    msg: Print Hi
 
